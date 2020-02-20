@@ -1,0 +1,239 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: 'Open Sans', sans-serif;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    margin: 35px 25px 100px 25px; 
+}
+ header img{
+    width: 100px;
+    object-fit: contain; 
+}
+header button{
+    width: 100px;
+    height: 30px;
+    border-radius: 1rem;
+    background-color: white;
+    border-color: hsl(322, 100%, 66%);
+    color: hsl(322, 100%, 66%);
+    border:1px solid hsl(322, 100%, 66%);
+}
+.first{
+    text-align: center;
+} 
+.first h1{
+   color:  hsl(192, 100%, 9%);
+   margin: 25px;
+}
+.first p{
+    margin: 20px;
+    line-height: 1.3rem;
+}
+.first button{
+    border-radius: 2rem;
+    color: white;
+    background-color:hsl(322, 100%, 66%) ;
+    height: 3rem;
+    width: 60vw;
+    border-width: 0px;
+    font-weight: 600;
+    margin-top: 5vh;
+    margin-bottom: 15vh;
+}
+.mock img{
+    width: 80%;
+    object-fit: contain;
+    margin: 10%;
+    margin-bottom: 20vh;
+} 
+.icon-com{
+    text-align: center;
+}
+.icon-com img{
+    width: 35px;
+    height: 30px;
+    margin-left:-25%;
+    margin-bottom: 10px;
+
+}
+.icon-com span{
+    font-size: 3rem;
+    font-weight: 700; 
+}
+.icon-com p{
+    margin-bottom: 15vh;
+    
+}
+.icon-msg{
+    text-align: center;
+    /* margin-top: 5rem; */
+}
+.icon-msg img{
+    width: 35px;
+    height: 30px;
+    margin-left: -25%;
+    margin-bottom: 10px;
+    
+}
+.icon-msg span{
+    font-size: 3rem;
+    font-weight: 700;
+}
+.grow{
+    text-align: center;
+    background-color: hsl(207, 100%, 98%);
+    
+}
+.top{
+    width: 100%;
+}
+.grow img{
+    width: 80%;
+    margin: 10%;
+    object-fit: contain; 
+
+    
+}
+.grow2{
+    width: 100%;
+    object-fit: contain; 
+}
+.grow h2{
+    margin-bottom: 15px;
+}
+.grow p{
+    margin-left: 20px;
+    margin-right: 20px;
+    line-height: 1.3rem;
+}
+.flowing-convo{
+    text-align: center;
+}
+.flowing-convo img{
+    width: 80%;
+    margin: 10%;
+    object-fit: contain;
+    margin-top: 7rem;
+    margin-bottom: 5rem;
+}
+.flowing-convo h2{
+    margin-bottom: 15px;
+}
+.flowing-convo p{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20vh;
+    line-height: 1.3rem;
+}
+.top2{
+    width: 100%;
+    object-fit: contain;
+}
+.your-users{
+    text-align: center;
+    background-color: hsl(207, 100%, 98%);
+
+}
+.your-users img{
+   width: 80%;
+   margin: 10%; 
+}
+.your-users h2{
+    margin-bottom: 15px;
+}
+.your-users p{
+    margin-left: 20px;
+    margin-right: 20px;
+    line-height: 1.3rem;
+}
+.bot{
+    width: 100%;
+    object-fit: contain;
+    margin-bottom: 20vh;
+}
+.foot{
+    text-align: center;
+}
+.foot h2{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+}
+.footer img{
+    width: 100%;
+    object-fit: contain;
+}
+.foot button{
+    border-radius: 2rem;
+    color: white;
+    background-color:hsl(322, 100%, 66%) ;
+    height: 3rem;
+    width: 60vw;
+    border-width: 0px;
+    font-weight: 600;
+    margin-bottom: 40vh;
+}
+.news{
+    background-color:  hsl(192, 100%, 9%);
+    height: 660px;
+}
+.news h3{
+    margin-bottom: 10px;
+    color: white;
+    margin-left: 1.5rem;
+}
+.news p{
+    color: white;
+    margin-bottom: 10px;
+    margin-left: 1.5rem;
+    margin-right: 2rem;
+    line-height: 1.3rem;
+}
+.email{
+    width: 90%;
+    height: 40px;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    margin-bottom: 1rem;
+}
+.news button{
+   height: 40px;
+   width: 45%;
+   margin-left: 12rem;
+   background-color: hsl(322, 100%, 66%);
+   color: white;
+   border:1px solid hsl(322, 100%, 66%);
+   margin-bottom: 20vh;
+}
+.icon{
+    display: flex;
+    color: white;
+    margin-left: 1.5rem;
+    margin-bottom: 1rem;
+}
+.para p{
+    margin-bottom: 2rem;
+    line-height: 1.3rem;
+}
+.news img{
+    margin-left: 1.5rem;
+    
+}
+.news span{
+    color: white;
+    margin-left: 1rem;
+}
+.logo img{
+    height: 25px;
+    width: 25px;
+    margin-left: 1.5rem;
+    margin-top: 3rem;
+}
+
+
